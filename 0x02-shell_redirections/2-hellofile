@@ -1,4 +1,5 @@
-##
+#!/bin/bash
+echo "##
 # User Database
 #
 # Note that this file is consulted directly only when the system is running
@@ -20,4 +21,4 @@ _postfix:*:27:27:Postfix Mail Server:/var/spool/postfix:/usr/bin/false
 _scsd:*:31:31:Service Configuration Service:/var/empty:/usr/bin/false
 _ces:*:32:32:Certificate Enrollment Service:/var/empty:/usr/bin/false
 _mcxalr:*:54:54:MCX AppLaunch:/var/empty:/usr/bin/false
-_krbfast:*:246:-2:Kerberos FAST Account:/var/empty:/usr/bin/false
+_krbfast:*:246:-2:Kerberos FAST Account:/var/empty:/usr/bin/false"
