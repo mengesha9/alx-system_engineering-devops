@@ -1,2 +1,2 @@
 #!/bin/bash
-find /mount/PATH -maxdepth 1 -mindepth 1 -type d | wc -l
+echo $PATH | tr -s ":" "\n" | wc -1
