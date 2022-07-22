@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# This scripts prints Best School times using the while loop
+
+i=1
+num=9
+
+while [ $i -le 10 ]
+do
+  echo "Best School"
+  if [ $i == $num ]
+  then
+  echo "Hi"
+  fi
+
+  i=$((i+1))
+done
