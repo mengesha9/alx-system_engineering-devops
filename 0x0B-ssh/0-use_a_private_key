@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Script to connect to server using private key
+ 
+ssh -i ~/.ssh/school ubuntu@104.196.98.170
+
